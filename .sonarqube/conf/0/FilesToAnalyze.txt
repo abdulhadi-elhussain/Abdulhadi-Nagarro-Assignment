@@ -1,0 +1,7 @@
+﻿/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/Account.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/BaseModel.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/Role.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/Session.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/Statement.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/User.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Domain/Models/UserRole.cs

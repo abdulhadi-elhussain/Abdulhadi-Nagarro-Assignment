@@ -10,7 +10,7 @@ namespace AbdulhadiNagarroAssignment.Infrastructure.Persistence.Repositories
         {
         }
 
-        public async Task<Session?> AddSession(Session session)
+        public async Task<Session> AddSession(Session session)
         {
             var result = await context.Sessions.AddAsync(session);
             await context.SaveChangesAsync();

@@ -1,0 +1,10 @@
+﻿/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/CustomWebApplicationFactory.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/Startup.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/UnitTest.cs
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/Usings.cs
+/Users/abdulhadi.elhussain/.nuget/packages/microsoft.net.test.sdk/17.1.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs
+/Users/abdulhadi.elhussain/.nuget/packages/microsoft.testplatform.testhost/17.1.0/build/netcoreapp2.1/Microsoft.TestPlatform.PlatformAbstractions.dll
+/Users/abdulhadi.elhussain/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/abdulhadi.elhussain/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/abdulhadi.elhussain/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/TestResults/a19b35b1-f070-4536-9882-9885b2b76255/coverage.cobertura.xml

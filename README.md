@@ -4,7 +4,6 @@ Welcome to AbdulhadiNagarroAssignment .NET Project!
 
 ## Description
 
-
 .Net Assignment
 Test Pre-requisite:
 The following assignment should be done using .Net6
@@ -55,24 +54,48 @@ Statement:
 
 ## Installation
 
-To get started with My Awesome .NET Project, follow these steps:
+This project is developed with .net core 6  
+To get started with  this .NET Project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/my-awesome-dotnet-project.git`
-2. Navigate to the project directory: `cd my-awesome-dotnet-project`
+1. Clone the repository: `git clone https://github.com/abdulhadi-elhussain/Abdulhadi-Nagarro-Assignment.git`
+2. Navigate to the project directory: `cd AbdulhadiNagarroAssignment`
 3. Build the project: `dotnet build`
 4. Run the application: `dotnet run`
+Or Using Viusal Studio GUI
+For Testing:
+1. Navigate to testing project `cd ./AbdulhadiNagarroAssignment.Testing`
+2. add the package using `dotnet add package coverlet.collector`
+or using Visual Studio
+
+Note: an In-Memory DB is used instead of access DB, since the db wasn't provided and the development enviroment is a Mac with Apple Silicon
+
+* The package used in the solution:
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.20" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.20" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.20" />
+    <PackageReference Include="Shouldly" Version="4.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
 
 ## Usage
 
-Here's how you can use My Awesome .NET Project:
+The solution is splitted into four projects:
+1. AbdulhadiNagarroAssignment: this is the main project which contains the APIs main component such as: controllers, request & responses, configuration, mapping profiles
+2. AbdulhadiNagarroAssignment.Domain: this project contains domain related code such as models
+3. AbdulhadiNagarroAssignment.Infrastructure: thiis project contains the infrastructure related code such as: EF Code, DB Seeding, and repositories classes to handle interactions with the DB
+4. AbdulhadiNagarroAssignment.Testing: this project holds the unit testing code, which can be executed by building the project and then run the test cases from the file `UnitTest.cs`
 
-```csharp
-using System;
+* In the main project in the the Program.cs file, all dependencies is being injected and application is initiated.
+* appsettings.json holds the jwt parameters and session expiry
+* a postman collection is also attached in the solution folder which can be imported to easily test the API after
 
-public class Program
-{
-    public static void Main()
-    {
-        // Your code examples here...
-    }
-}
+*

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>AbdulhadiNagarroAssignment.Testing</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>edbec3af-7ed8-4d1d-9cff-22b4ab97edf1</ProjectGuid>
+  <FullPath>/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/AbdulhadiNagarroAssignment.Testing.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/.sonarqube/conf/3/FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/.sonarqube/out/3/Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/.sonarqube/out/3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net6.0</TargetFramework>
+</ProjectInfo>

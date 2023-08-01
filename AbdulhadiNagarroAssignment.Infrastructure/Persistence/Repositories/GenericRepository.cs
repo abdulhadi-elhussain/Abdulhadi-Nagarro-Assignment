@@ -6,7 +6,7 @@ namespace AbdulhadiNagarroAssignment.Infrastructure.Persistence.Repositories
 
         protected readonly AccountsManagerContext context;
 
-        public GenericRepository(AccountsManagerContext context)
+        protected GenericRepository(AccountsManagerContext context)
         {
             this.context = context;
         }

@@ -1,0 +1,9 @@
+Š
+€/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/CustomWebApplicationFactory.csutf-8u
+l/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/Startup.csutf-8v
+m/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/UnitTest.csutf-8t
+k/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/Usings.csutf-8‰
+~/Users/abdulhadi.elhussain/.nuget/packages/microsoft.net.test.sdk/17.1.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.csutf-8³
+§/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/obj/Debug/net6.0/AbdulhadiNagarroAssignment.Testing.GlobalUsings.g.csutf-8­
+¡/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8±
+¥/Users/abdulhadi.elhussain/Projects/AbdulhadiNagarroAssignment/AbdulhadiNagarroAssignment.Testing/obj/Debug/net6.0/AbdulhadiNagarroAssignment.Testing.AssemblyInfo.csutf-8

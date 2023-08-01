@@ -1,0 +1,327 @@
+{
+	"info": {
+		"_postman_id": "e849591e-13ae-4a42-8147-4e8400ea438b",
+		"name": "AbdulhadiNagarroAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3206380"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Token",
+					"item": [
+						{
+							"name": "login",
+							"item": [
+								{
+									"name": "/api/Token/login",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"password\": \"user\",\n  \"username\": \"user\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Token/login",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Token",
+												"login"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"password\": \"<string>\",\n  \"username\": \"<string>\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Token/login",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Token",
+														"login"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Statement",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "Get",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Statement/1",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Statement",
+												"1"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Statement/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Statement",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Statement",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Statement?AccountId=1&FromDate=2000-12-17&ToDate=2023-12-17&FromAmount=50&ToAmount=200",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Statement"
+									],
+									"query": [
+										{
+											"key": "AccountId",
+											"value": "1",
+											"description": "(Required) "
+										},
+										{
+											"key": "FromDate",
+											"value": "2000-12-17"
+										},
+										{
+											"key": "ToDate",
+											"value": "2023-12-17"
+										},
+										{
+											"key": "FromAmount",
+											"value": "50"
+										},
+										{
+											"key": "ToAmount",
+											"value": "200"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Statement?AccountId=<integer>&FromDate=6996-12-17&ToDate=6996-12-17&FromAmount=<double>&ToAmount=<double>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Statement"
+											],
+											"query": [
+												{
+													"key": "AccountId",
+													"value": "<integer>",
+													"description": "(Required) "
+												},
+												{
+													"key": "FromDate",
+													"value": "6996-12-17"
+												},
+												{
+													"key": "ToDate",
+													"value": "6996-12-17"
+												},
+												{
+													"key": "FromAmount",
+													"value": "<double>"
+												},
+												{
+													"key": "ToAmount",
+													"value": "<double>"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{token}}",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"var req = pm.request.clone();",
+									"req.removeHeader(\"Content-Type\");",
+									"req.headers.add({",
+									"  key: \"Content-Type\",",
+									"  value: \"application/json\"",
+									"});",
+									"",
+									"req.method = \"POST\";",
+									"req.body= JSON.stringify({",
+									"  \"password\": \"admin\",",
+									"  \"username\": \"admin\"",
+									"});",
+									"",
+									"req.url = pm.collectionVariables.get(\"baseUrl\") + \"/api/Token/login\";",
+									"",
+									"//var response = pm.sendRequest(pm.request);",
+									"pm.sendRequest(req, function (err, response) {",
+									"    console.log(response.text());",
+									"    pm.collectionVariables.set(\"token\", response.text());",
+									"});",
+									"",
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7078"
+		},
+		{
+			"key": "token",
+			"value": ""
+		}
+	]
+}

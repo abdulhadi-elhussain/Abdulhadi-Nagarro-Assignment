@@ -1,0 +1,6 @@
+projectKey=AbdulhadiNagarroAssignment
+serverUrl=http://localhost:9000
+serverVersion=10.1.0.73491
+dashboardUrl=http://localhost:9000/dashboard?id=AbdulhadiNagarroAssignment
+ceTaskId=AYmyvO2Ce-gDaThVfg2e
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYmyvO2Ce-gDaThVfg2e
