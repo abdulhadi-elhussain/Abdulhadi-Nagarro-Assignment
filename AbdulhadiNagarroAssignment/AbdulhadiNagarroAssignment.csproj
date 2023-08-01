@@ -8,6 +8,26 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.20" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AbdulhadiNagarroAssignment.Domain\AbdulhadiNagarroAssignment.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\AbdulhadiNagarroAssignment.Infrastructure\AbdulhadiNagarroAssignment.Infrastructure.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
